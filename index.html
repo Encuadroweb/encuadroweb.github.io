@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Emparan — Branding</title>
+  <meta name="description" content="Buenos Aires based Brand Designer & UX/UI — Select work 2015–Present">
+  <link rel="icon" type="image/png" href="assets/img/diego_perfil.png">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V1HXC98M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "G-X7V1HXC98M");
+  </script>
+</head>
+<body id="top">
+
+  <div id="scroll-bar" aria-hidden="true"></div>
+
+  <!-- ── HEADER ────────────────────────────────────────────────────────── -->
+  <header id="site-header">
+    <div class="header-inner">
+
+      <a class="header-logo" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+        <div class="header-avatar-wrap">
+          <img class="header-avatar" src="assets/img/diego_perfil.png" alt="">
+        </div>
+        <span class="header-name">Diego Emparan</span>
+      </a>
+
+      <nav class="header-links" aria-label="Navigation">
+        <a class="header-link" href="https://www.linkedin.com/in/diegoemparan/" target="_blank" rel="noopener">
+          <!-- LinkedIn brand icon -->
+          <svg class="header-link-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          Linkedin
+        </a>
+        <a class="header-link" href="mailto:encuadro.web@gmail.com">
+          <!-- Envelope icon -->
+          <svg class="header-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m2 7 10 7 10-7"/>
+          </svg>
+          Contact
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ── HERO ──────────────────────────────────────────────────────────── -->
+  <section id="hero" aria-label="Introduction">
+    <p class="hero-eyebrow">Branding &amp; UX/UI</p>
+    <h1 class="hero-headline">
+      Hello! I'm a Buenos Aires–based Brand&nbsp;Designer &amp;&nbsp;UX/UI specialist, crafting clear and effective solutions through visual&nbsp;communication.
+    </h1>
+    <div class="hero-footer">
+      <span class="hero-footer-item">Select work</span>
+      <span class="hero-dot">·</span>
+      <span class="hero-footer-item">2015 – Present day</span>
+      <span class="hero-dot">·</span>
+      <span class="hero-footer-item" id="project-count"></span>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ──────────────────────────────────────────────────────── -->
+  <main id="projects" aria-label="Projects"></main>
+
+  <!-- ── CTA ───────────────────────────────────────────────────────────── -->
+  <section id="cta">
+    <p class="cta-label">Get in touch</p>
+    <a class="cta-headline" href="mailto:encuadro.web@gmail.com">
+      Got a project?<br>Let's talk.
+    </a>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2025. All rights reserved.</span>
+
+      <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="12" y1="19" x2="12" y2="5"/>
+          <polyline points="5 12 12 5 19 12"/>
+        </svg>
+      </button>
+
+      <a class="footer-email" href="mailto:encuadro.web@gmail.com">encuadro.web@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
